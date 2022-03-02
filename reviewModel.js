@@ -1,5 +1,6 @@
 const mongoose=require("mongoose");
-const db_link='mongodb+srv://imrutvij:GqbHD6K80IsErPI2@cluster0.7mnql.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const db_link='';
+// mongodb link here (safety reasons)
 mongoose.connect(db_link)
 .then (function(db){
     // console.log(db);
